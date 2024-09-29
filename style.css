@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+#inputImagem {
+    padding: 10px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#inputImagem:hover {
+    background-color: #e1f0ff;
+}
+
+#imagemWebp {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+#downloadLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+#downloadLink:hover {
+    background-color: #357ABD;
+}
+
+#qualityLabel {
+    margin-top: 20px;
+}
+
+#qualityRange {
+    width: 100%;
+    max-width: 400px;
+}
+
+#progressBar {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+#progressFill {
+    width: 0;
+    height: 100%;
+    background-color: #4a90e2;
+    transition: width 0.3s;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #downloadLink {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}
