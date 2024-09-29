@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor PNG para WebP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Converter PNG para WebP</h1>
+    <input type="file" id="inputImagem" accept="image/png, image/jpeg, image/jpg, image/gif, image/bmp">
+    <label id="qualityLabel" for="qualityRange">Qualidade da imagem WebP: <span id="qualityValue">80</span>%</label>
+    <input type="range" id="qualityRange" min="1" max="100" value="80">
+    <div id="progressBar">
+        <div id="progressFill"></div>
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <img id="imagemWebp" alt="Imagem WebP convertida" style="display: none;">
+    <a id="downloadLink" href="#" download="imagem_convertida.webp" style="display:none;">Descarregar Imagem WebP</a>
+    <script src="script.js"></script>
+</body>
+</html>
