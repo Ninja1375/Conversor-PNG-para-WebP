@@ -44,7 +44,7 @@ Uma vez que o usuário clica no link de download da imagem convertida, a página
 
 O projeto foi desenvolvido com CSS responsivo, adaptando-se a diferentes tamanhos de tela, desde dispositivos móveis a desktops. A interface mantém-se simples e eficiente, com botões, sliders e barras de progresso fáceis de usar em qualquer dispositivo.
 
-## Explicação das Tecnologias Usadas: ##
+## Explicação das Tecnologias Utilizadas:
 
 
  <a href="https://programartudo.blogspot.com/2024/05/html-o-que-e-e-qual-sua-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/></a> <a href="https://programartudo.blogspot.com/2024/05/css-significado-e-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/></a> <a href="https://programartudo.blogspot.com/2024/05/javascript-significado-e-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
